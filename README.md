@@ -1,14 +1,14 @@
-![status](https://secure.travis-ci.org/wearefractal/APPNAME.png?branch=master)
+![status](https://secure.travis-ci.org/wearefractal/djb2.png?branch=master)
 
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>djb2</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
+<td>djb2 hash in js</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -18,13 +18,14 @@
 
 ## Usage
 
+You can give it a string or an array of numbers.
+
 ```coffee-script
-NOTHING HERE YET
+djb2 = require 'djb2'
+
+djb2 'test' # 2090756197
+djb2 [101, 102] 5863344
 ```
-
-## Examples
-
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
 
 ## LICENSE
 
