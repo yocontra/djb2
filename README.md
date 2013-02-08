@@ -24,7 +24,7 @@ You can give it a string or an array of numbers.
 djb2 = require 'djb2'
 
 djb2 'test' # 2090756197
-djb2 [101, 102] 5863344
+djb2 [101, 102] # 5863344
 ```
 
 ## LICENSE
