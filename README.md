@@ -3,7 +3,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>djb2</td>
 </tr>
 <tr>
@@ -20,11 +20,11 @@
 
 You can give it a string or an array of numbers.
 
-```coffee-script
-djb2 = require 'djb2'
+```js
+var djb2 = require('djb2');
 
-djb2 'test' # 2090756197
-djb2 [101, 102] # 5863344
+djb2('test'); // 2090756197
+djb2([101, 102]); // 5863344
 ```
 
 ## LICENSE
