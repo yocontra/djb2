@@ -1,29 +1,25 @@
 {
-   "name":"djb2",
-   "description":"djb2 hash in JS",
-   "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/djb2",
-   "repository":"git://github.com/wearefractal/djb2.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*"
-   },
-   "scripts":{
-      "test":"mocha --compilers coffee:coffee-script"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/djb2/raw/master/LICENSE"
-      }
-   ]
+  "name": "djb2",
+  "description": "djb2 hash in JS",
+  "version": "0.0.2",
+  "homepage": "http://github.com/wearefractal/djb2",
+  "repository": "git://github.com/wearefractal/djb2.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "devDependencies": {
+    "mocha": "^1.20.0",
+    "should": "^4.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/djb2/raw/master/LICENSE"
+    }
+  ]
 }
